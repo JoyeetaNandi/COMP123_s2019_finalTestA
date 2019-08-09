@@ -1,4 +1,5 @@
-﻿using System;
+﻿using COMP123_s2019_finalTestA.Views;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -8,6 +9,7 @@ namespace COMP123_s2019_finalTestA
 {
     static class Program
     {
+        public static MasterForm masterForm;
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
@@ -16,7 +18,9 @@ namespace COMP123_s2019_finalTestA
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+
+            masterForm = new MasterForm();
+            Application.Run(masterForm);
         }
     }
 }
