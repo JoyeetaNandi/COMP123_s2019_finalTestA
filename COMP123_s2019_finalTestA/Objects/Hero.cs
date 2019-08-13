@@ -127,7 +127,7 @@ namespace COMP123_s2019_finalTestA.Objects
                 Karma += int.Parse(m_popularity);
             }
         }
-        //public string Strength { get; set; }
+        
 
         //Secondary Abilities
         public int Health { get; set; }
@@ -135,7 +135,7 @@ namespace COMP123_s2019_finalTestA.Objects
 
         //Power List
         List<Power> Powers;
-
+    //Constructor
         Hero()
         {
             Powers = new List<Power>();

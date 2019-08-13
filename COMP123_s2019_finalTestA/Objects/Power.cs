@@ -4,8 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 /*
- * Student Name: 
- * Student Id:
+ * Student Name: Joyeeta Nandi
+ * Student Id: 300757798
  * Description: This is the Power Class
  */
 namespace COMP123_s2019_finalTestA.Objects
