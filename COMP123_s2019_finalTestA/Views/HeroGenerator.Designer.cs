@@ -94,7 +94,7 @@
             this.MainTabControl.Location = new System.Drawing.Point(12, 12);
             this.MainTabControl.Name = "MainTabControl";
             this.MainTabControl.SelectedIndex = 0;
-            this.MainTabControl.Size = new System.Drawing.Size(742, 500);
+            this.MainTabControl.Size = new System.Drawing.Size(760, 444);
             this.MainTabControl.TabIndex = 0;
             this.MainTabControl.Tag = "Charactor Sheet";
             // 
@@ -184,7 +184,7 @@
             this.Abilities.Location = new System.Drawing.Point(4, 33);
             this.Abilities.Name = "Abilities";
             this.Abilities.Padding = new System.Windows.Forms.Padding(3);
-            this.Abilities.Size = new System.Drawing.Size(734, 463);
+            this.Abilities.Size = new System.Drawing.Size(752, 407);
             this.Abilities.TabIndex = 1;
             this.Abilities.Text = "Abilities";
             this.Abilities.UseVisualStyleBackColor = true;
@@ -581,7 +581,7 @@
             // 
             // NextButton
             // 
-            this.NextButton.Location = new System.Drawing.Point(671, 518);
+            this.NextButton.Location = new System.Drawing.Point(662, 488);
             this.NextButton.Name = "NextButton";
             this.NextButton.Size = new System.Drawing.Size(110, 45);
             this.NextButton.TabIndex = 1;
@@ -591,7 +591,7 @@
             // 
             // BackButton
             // 
-            this.BackButton.Location = new System.Drawing.Point(16, 518);
+            this.BackButton.Location = new System.Drawing.Point(12, 488);
             this.BackButton.Name = "BackButton";
             this.BackButton.Size = new System.Drawing.Size(110, 45);
             this.BackButton.TabIndex = 2;

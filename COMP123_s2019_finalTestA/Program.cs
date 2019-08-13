@@ -10,6 +10,8 @@ namespace COMP123_s2019_finalTestA
     static class Program
     {
         public static HeroGenerator heroGenerator;
+        public static MasterForm masterForm;
+        public static SplashForm splashForm;
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
@@ -20,7 +22,11 @@ namespace COMP123_s2019_finalTestA
             Application.SetCompatibleTextRenderingDefault(false);
 
             heroGenerator = new HeroGenerator();
-            Application.Run(heroGenerator);
+            masterForm = new MasterForm();
+            splashForm = new SplashForm();
+
+
+            Application.Run(splashForm);
         }
     }
 }
