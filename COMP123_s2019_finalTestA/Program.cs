@@ -1,4 +1,5 @@
-﻿using COMP123_s2019_finalTestA.Views;
+﻿using COMP123_s2019_finalTestA.Objects;
+using COMP123_s2019_finalTestA.Views;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,7 +12,8 @@ namespace COMP123_s2019_finalTestA
     {
         public static HeroGenerator heroGenerator;
         public static MasterForm masterForm;
-        public static SplashForm splashForm;
+        public static Hero character;
+
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
@@ -23,10 +25,12 @@ namespace COMP123_s2019_finalTestA
 
             heroGenerator = new HeroGenerator();
             masterForm = new MasterForm();
-            splashForm = new SplashForm();
+            character = new Hero();
 
 
-            Application.Run(splashForm);
+
+
+            Application.Run(heroGenerator);
         }
     }
 }
